@@ -38,62 +38,69 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Learn frontend development with our comprehensive courses and
-              resources. Now is the time for all good men to come to the aid of
-              their country.
-            </p>
-            <p class="section__description--para">
-              Our curriculum is designed to take you from beginner to pro with
-              ease. Join us and start your journey today!
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Learn frontend development with our comprehensive courses and
+                resources. Now is the time for all good men to come to the aid
+                of their country.
+              </p>
+              <p class="section__description--para">
+                Our curriculum is designed to take you from beginner to pro with
+                ease. Join us and start your journey today!
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./HTML Practise Assets/about.jpg" alt="about" />
+            </figure>
           </div>
-          <figure class="about__img--wrapper">
-            <img src="./HTML Practise Assets/about.jpg" alt="about" />
-          </figure>
         </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description">
-          <figure>
-            <img src="./HTML Practise Assets/discord.png" alt="Discord" />
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Learn frontend development with our comprehensive courses and
-              resources. Now is the time for all good men to come to the aid of
-              their country.
-            </p>
-            <p class="section__description--para">
-              Our curriculum is designed to take you from beginner to pro with
-              ease. Join us and start your journey today!
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <figure>
+              <img src="./HTML Practise Assets/discord.png" alt="Discord" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Learn frontend development with our comprehensive courses and
+                resources. Now is the time for all good men to come to the aid
+                of their country.
+              </p>
+              <p class="section__description--para">
+                Our curriculum is designed to take you from beginner to pro with
+                ease. Join us and start your journey today!
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section id="contact">
         <h2>Contact</h2>
-        <form action="">
+        <form>
           <label for="email">Email:</label>
           <input type="text" placeholder="jane@example.com" />
           <label for="message">Message:</label>
-          <textarea id="text" placeholder="Cool website, Let's get connected"></textarea>
+          <textarea
+            id="text"
+            placeholder="Cool website, Let's get connected"
+          ></textarea>
           <button>Contact Us</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./HTML Practise Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href=""></a>
+      <img class="footer__logo" src="./HTML Practise Assets/FES.svg" alt="" />
+      <div class="photo-links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
       <p>© 2024 Frontend Simplified</p>
     </footer>
